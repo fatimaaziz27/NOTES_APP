@@ -13,6 +13,7 @@ A simple text-based notes app built with Python.
 python simple_notes.py
 ```
 **Example**
+
 ===== Simple Notes App =====
 1. Add a note
 2. View all notes
