@@ -1,4 +1,4 @@
-# 📝 Simple Notes App
+#  Simple Notes App
 
 A simple text-based notes app built with Python.
 
