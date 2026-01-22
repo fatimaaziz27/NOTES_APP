@@ -1,7 +1,11 @@
-# simple_notes.py
-# text-based notes app
+#               Simple Notes Application
+# This application allows users to add, view, and delete notes.
+
+# Initialize an empty list to store notes
 
 notes = []
+
+# Function to display the menu
 
 def show_menu():
     print("\n===== Simple Notes App =====")
@@ -10,14 +14,23 @@ def show_menu():
     print("3. Delete a note")
     print("4. Exit")
 
+# Main loop
+
 while True:
+
+    # Display the menu
+
     show_menu()
     choice = input("Enter your choice (1-4): ")
+
+# Handle user choices
 
     if choice == "1":
         note = input("Write your note: ")
         notes.append(note)
         print("Note added!")
+
+# View notes
 
     elif choice == "2":
         if not notes:
@@ -26,6 +39,8 @@ while True:
             print("\n--- Your Notes ---")
             for i, note in enumerate(notes, start=1):
                 print(f"{i}. {note}")
+
+# Delete notes
 
     elif choice == "3":
         if not notes:
@@ -40,9 +55,15 @@ while True:
             else:
                 print("Invalid number.")
 
+# Exit the application
+
     elif choice == "4":
         print("Goodbye")
         break
 
+# Handle invalid choices
+
     else:
         print("Invalid choice. Try again.")
+
+# End of the Simple Notes Application
