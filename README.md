@@ -8,10 +8,6 @@ A simple text-based notes app built with Python.
 - Delete notes  
 - Exit anytime
 
-## How to Run
-```bash
-python simple_notes.py
-```
 **Example**
 
 ===== Simple Notes App =====
